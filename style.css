@@ -1,0 +1,15 @@
+.navbar {
+  color: #fff;
+}
+.navbar div  {
+  color: #fff;
+}
+
+li a {
+  color: #fff;
+}
+
+#navbarToggleExternalContent {
+  z-index: -1;
+}
+
