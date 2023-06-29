@@ -56,6 +56,7 @@ li a {
 
 header {
   padding: 15rem 0 15rem 0;
+  margin-bottom: 16rem;
 }
 
 h1 {
@@ -63,5 +64,13 @@ h1 {
 }
 h3 {
   color: #ccc !important;
+}
+
+div.col-12  {
+  background-color: #1c1c1c;
+}
+
+#skills i {
+  font-size: 4em !important;
 }
 
