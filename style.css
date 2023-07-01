@@ -74,3 +74,11 @@ div.col-12  {
   font-size: 4em !important;
 }
 
+.text-box {
+  background-color: #262626;
+}
+
+.project-box {
+  text-decoration: none !important;
+}
+
