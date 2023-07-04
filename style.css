@@ -85,3 +85,37 @@ div.col-12  {
 #footer {
   background-color: #1c1c1c;
 }
+
+input {
+  background-color: #010101 !important;
+  width: 49% !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: #fff !important;
+  opacity: .3 !important;
+}
+
+textarea {
+  background-color: #010101 !important;
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.border-orange {
+  border-color:#ef5e33 !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
