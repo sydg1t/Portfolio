@@ -25,17 +25,17 @@
             <a class="nav-link btn btn-danger rounded-5 px-3 py-2" href="#projects">Projects</a>
           </div>
         </nav>
-        <div class="d-none d-lg-flex mr-auto btn border border-1 border-light rounded-5"><a class="nav-link" href="#resume">Resume</a></div>
+        <div class="d-none d-lg-flex mr-auto btn border border-1 border-light rounded-5"><a class="nav-link" href="#contact">Contact Me</a></div>
         <div class="collapse m-1 border border-1 border-light  fixed-top" id="navbarToggleExternalContent">
           <div class="bg-dark p-4 pt-5 d-flex flex-column align-items-start">
             <a class="nav-link py-2 pt-5" href="#about">About</a> <br>
             <a class="nav-link  py-2" href="#skills">Skills</a>
-            <a class="nav-link  py-2" href="#Projects">Projects</a>
-            <a class="nav-link  py-2 d-none" href="#Resume">Resume</a>
+            <a class="nav-link  py-2" href="#projects">Projects</a>
+            <a class="nav-link  py-2" href="#contact">Contact Me</a>
           </div>
         </div>
         
-            <button class="navbar-toggler rounded-circle p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler rounded-circle p-2 border-0 fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
             </button>
           
@@ -54,13 +54,13 @@
     <div class="container">
      
       <div class="row d-flex justify-content-between"> <!--About-->
-        <div class="col-12 col-lg-6 p-5  my-1 rounded-5" id="about">
+        <div class="col-12 col-lg-6 p-5  my-1 rounded-5 border-end border-orange" id="about">
           <h2 class="text-white pb-3">About</h2>
           <p class="text-white my-auto"> I am a fullstack web developer in training in Altcademy's Fullstack Developer Program, and a second year student at The University of New Mexico, Computer Science Program. </p>
           
         </div>
         <!--Skills-->
-        <div class="col-12 col-lg-5 p-5 my-1 rounded-5" id="skills">
+        <div class="col-12 col-lg-6 p-5 my-1 rounded-5 border-start border-orange" id="skills">
             <h2 class="text-white pb-3">Skills</h2>
             <div class="d-flex justify-content-evenly">
             <i class="fa-brands fa-html5" style="color: #ffffff;"></i>
@@ -124,6 +124,22 @@
            
             
           </div>
+        </div>
+      </div>
+      <!--Contact Me-->
+      <div class="row">
+        <div class="col-12 p-5 my-1 rounded-5" id="contact">
+          <h2 class="text-white pb-3">Contact Me</h2>
+          <form>
+            <div class="mb-3 d-flex justify-content-between">
+              <input type="text" class="form-control rounded-1 lh-large border-0 text-white py-3 d-inline-block" id="inputName" placeholder="Name">
+              <input type="email" class="form-control rounded-1 lh-large border-0 text-white py-3 w-50 d-inline-block" id="exampleInputEmail1" placeholder="Email">
+              
+            </div>
+            <textarea class="w-100 rounded-1 border-0 py-3 form-control text-white mb-3" placeholder="Write a Message"></textarea>
+    
+            <button type="submit" class="btn btn-warning w-100 rounded-1 py-2 fs-5 ">Submit</button>
+          </form>
         </div>
       </div>
       <!--Footer-->
