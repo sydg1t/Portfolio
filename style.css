@@ -19,6 +19,7 @@ body {
   display: block;
   z-index: -1;
   -webkit-animation: sliderShape 5s linear infinite;
+  overflow: hidden;
 }
 @keyframes sliderShape{
   0%,100%{
