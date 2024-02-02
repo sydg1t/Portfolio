@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Personal Portfolio Webpage</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/605e2440fa.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    
 
-<div class="slider-thumb">
+<head>
+  <title>Personal Portfolio Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/605e2440fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <div class="slider-thumb">
 
 
     <!--Navbar-->
@@ -25,7 +28,8 @@
             <a class="nav-link btn btn-danger rounded-5 px-3 py-2" href="#projects">Projects</a>
           </div>
         </nav>
-        <div class="d-none d-lg-flex mr-auto btn border border-1 border-light rounded-5"><a class="nav-link" href="#contact">Contact Me</a></div>
+        <div class="d-none d-lg-flex mr-auto btn border border-1 border-light rounded-5"><a class="nav-link"
+            href="#contact">Contact Me</a></div>
         <div class="collapse m-1 border border-1 border-light  fixed-top" id="navbarToggleExternalContent">
           <div class="bg-dark p-4 pt-5 d-flex flex-column align-items-start">
             <a class="nav-link py-2 pt-5" href="#about">About</a> <br>
@@ -34,14 +38,16 @@
             <a class="nav-link  py-2" href="#contact">Contact Me</a>
           </div>
         </div>
-        
-            <button class="navbar-toggler rounded-circle p-2 border-0 fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
-            </button>
-          
+
+        <button class="navbar-toggler rounded-circle p-2 border-0 fs-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+        </button>
+
       </div>
-        
-      
+
+
     </nav>
     <!--Header-->
     <header class="container" id="header">
@@ -50,32 +56,48 @@
         <h3>Fullstack Web Developer</h3>
       </div>
     </header>
-    
+
     <div class="container">
-     
+
       <div class="row d-flex justify-content-between"> <!--About-->
         <div class="col-12 col-lg-6 p-5  my-1 rounded-5 border-end border-orange" id="about">
           <h2 class="text-white pb-3">About</h2>
-          <p class="text-white my-auto"> I am a fullstack web developer in training in Altcademy's Fullstack Developer Program, and a second year student at The University of New Mexico, Computer Science Program. </p>
-          
+          <p class="text-white my-auto"> I am a fullstack web developer in training in Altcademy's Fullstack Developer
+            Program, and a second year student at The University of New Mexico, Computer Science Program. </p>
+
         </div>
         <!--Skills-->
         <div class="col-12 col-lg-6 p-5 my-1 rounded-5 border-start border-orange" id="skills">
-            <h2 class="text-white pb-3">Skills</h2>
-            <div class="d-flex justify-content-evenly">
-            <i class="fa-brands fa-html5" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-css3-alt" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-bootstrap" style="color: #ffffff;"></i>
-            <i class="fa-brands fa-git-alt" style="color: #ffffff;"></i>
+          <h2 class="text-white pb-3">Skills</h2>
+          <div class="d-flex justify-content-evenly">
+            <table class="w-100">
+              <tbody>
+                <tr class="d-flex justify-content-evenly">
+                  <td>
+                  <i class="fa-brands fa-html5" style="color: #ffffff;"></i>
+                  <h5 >HTML</h5>
+                  </td>
+                  <td><i class="fa-brands fa-css3-alt" style="color: #ffffff;"></i><h5 >CSS</h5></td>
+                  
+                  <td><i class="fa-brands fa-bootstrap" style="color: #ffffff;"></i><h5 >Bootstrap</h5></td>
+                  
+                  <td><i class="fa-brands fa-git-alt" style="color: #ffffff;"></i><h5>Git</h5></td>
+                  
+                  <td><i class="fa-brands fa-js" style="color: #ffffff"></i>
+                    <h5>JavaScript</h5></td>
+                  
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="d-flex justify-content-evenly me-3">
-            <h5 class="text-white">HTML</h5>
-            <h5 class="text-white ps-1">CSS</h5>
-            <h5 class="text-white">Bootstrap5</h5>
-            <h5 class="text-white">Git</h5>
+            
+            
+            
+            
           </div>
         </div>
-        
+
       </div>
       <!--Projects-->
       <div class="row">
@@ -83,46 +105,58 @@
           <h2 class="text-white pb-3">Projects</h2>
           <div class="row">
             <div class="col-12 col-lg-6 py-2">
-              <a class="project-box" href="#"><img class="img-fluid rounded-top-4" src="https://picsum.photos/800/600">
+              <a class="project-box" href="https://marvelous-horse-591931.netlify.app/" target="_blank"><img
+                  class="img-fluid rounded-top-4" src="./Photos/10-Sec-Math-Game.png">
                 <div class="text-box text-white rounded-bottom-4 p-3">
-                <h4 class="text-white">Project 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at varius vel.</p>
+                  <h4 class="text-white">10 Sec Math Game</h4>
+                  <p>Simple math game built with JS. Timer counts down from 10, correct answers add 1 second to the
+                    time.</p>
                 </div>
               </a>
-              
+
+            </div>
+            <div class="col-12 col-lg-6 py-2">
+              <a class="project-box" href="https://deft-sunshine-b69449.netlify.app/" target="_blank"><img
+                  class="img-fluid rounded-top-4" src="./Photos/Shopping-Cart.png">
+                <div class="text-box text-white rounded-bottom-4 p-3">
+                  <h4 class="text-white">Shopping Cart</h4>
+                  <p>A simple shopping cart site built with JS and Jquery. Allows user to set quantity, add, and remove
+                    items.</p>
+                </div>
+              </a>
+
             </div>
             <div class="col-12 col-lg-6 py-2">
               <a class="project-box" href="#"><img class="img-fluid rounded-top-4" src="https://picsum.photos/800/600">
                 <div class="text-box text-white rounded-bottom-4 p-3">
-                <h4 class="text-white">Project 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at varius vel.</p>
+                  <h4 class="text-white">Project 3</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac
+                    turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in
+                    pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at
+                    varius vel.</p>
                 </div>
               </a>
-              
+
             </div>
             <div class="col-12 col-lg-6 py-2">
               <a class="project-box" href="#"><img class="img-fluid rounded-top-4" src="https://picsum.photos/800/600">
                 <div class="text-box text-white rounded-bottom-4 p-3">
-                <h4 class="text-white">Project 3</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at varius vel.</p>
+                  <h4 class="text-white">Project 4</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac
+                    turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in
+                    pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at
+                    varius vel.</p>
                 </div>
               </a>
-              
+
             </div>
-            <div class="col-12 col-lg-6 py-2">
-              <a class="project-box" href="#"><img class="img-fluid rounded-top-4" src="https://picsum.photos/800/600">
-                <div class="text-box text-white rounded-bottom-4 p-3">
-                <h4 class="text-white">Project 4</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet cursus sit. Et netus et malesuada fames ac turpis egestas maecenas. Posuere ac ut consequat semper viverra nam libero justo laoreet. Euismod in pellentesque massa placerat. Quis risus sed vulputate odio ut. Eu augue ut lectus arcu bibendum at varius vel.</p>
-                </div>
-              </a>
-              
-            </div>
-            
-            
-            
-           
-            
+
+
+
+
+
           </div>
         </div>
       </div>
@@ -132,12 +166,15 @@
           <h2 class="text-white pb-3">Contact Me</h2>
           <form>
             <div class="mb-3 d-flex justify-content-between">
-              <input type="text" class="form-control rounded-1 lh-large border-0 text-white py-3 d-inline-block" id="inputName" placeholder="Name">
-              <input type="email" class="form-control rounded-1 lh-large border-0 text-white py-3 w-50 d-inline-block" id="exampleInputEmail1" placeholder="Email">
-              
+              <input type="text" class="form-control rounded-1 lh-large border-0 text-white py-3 d-inline-block"
+                id="inputName" placeholder="Name">
+              <input type="email" class="form-control rounded-1 lh-large border-0 text-white py-3 w-50 d-inline-block"
+                id="exampleInputEmail1" placeholder="Email">
+
             </div>
-            <textarea class="w-100 rounded-1 border-0 py-3 form-control text-white mb-3" placeholder="Write a Message"></textarea>
-    
+            <textarea class="w-100 rounded-1 border-0 py-3 form-control text-white mb-3"
+              placeholder="Write a Message"></textarea>
+
             <button type="submit" class="btn btn-warning w-100 rounded-1 py-2 fs-5 ">Submit</button>
           </form>
         </div>
@@ -145,14 +182,20 @@
       <!--Footer-->
     </div>
     <div class="container-fluid mt-5 p-3 d-flex justify-content-between align-items-center" id="footer">
-      <a class="text-white py-auto" href="https://www.altcademy.com" target="_blank">Part of Altcademy's Fullstack Program</a>
+      <a class="text-white py-auto" href="https://www.altcademy.com" target="_blank">Part of Altcademy's Fullstack
+        Program</a>
       <div class="d-flex align-items-center">
         <p class="text-white d-inline-block mb-0">slaterobsydion@gmail.com</p>
-        <a class="text-white fs-2 px-2" href="https://www.linkedin.com/in/obsydion-slater-07615525b/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
-        <a class="text-white fs-2" href="https://github.com/sydg1t" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+        <a class="text-white fs-2 px-2" href="https://www.linkedin.com/in/obsydion-slater-07615525b/" target="_blank"><i
+            class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+        <a class="text-white fs-2" href="https://github.com/sydg1t" target="_blank"><i class="fa-brands fa-github"
+            style="color: #ffffff;"></i></a>
       </div>
     </div>
   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

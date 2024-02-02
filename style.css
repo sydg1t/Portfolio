@@ -120,3 +120,10 @@ textarea:focus {
   box-shadow: none !important;
   
 }
+img {
+  aspect-ratio: 2;
+}
+tr td {
+  color: white;
+  text-align:center;
+}
